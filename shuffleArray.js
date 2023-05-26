@@ -18,6 +18,9 @@ function shuffle(arr) {
   return shuffledArray;
 }
 
+const arr = [2, 4, 3, 7, 11, 6, 9];
+console.log(shuffle(arr));
+
 // Time Complexity (O(n))
 // The time complexity of this function is O(n), where n is the length of the array.
 // This is because the function loops through the array once to generate the random indices, and then loops through the array again to swap the elements.
